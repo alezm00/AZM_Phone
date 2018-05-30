@@ -9,6 +9,7 @@
     File: cfggeneral.hpp
     last edit: 27/04/2018
     Made for QCS military life
+    license:    GNU GENERAL PUBLIC LICENSE Version 3
 --------------------------------------------------------
     Copy or use without my permission is forbidden.
 */
