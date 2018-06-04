@@ -7,7 +7,7 @@
 .##.....##.##.......##........##......##.....##
 .##.....##.########.########.########.##.....##
     File: telecamera.sqf
-    last edit: 30/05/2018
+    last edit: 04/06/2018
     Made for QCS military life
 	license:    GNU GENERAL PUBLIC LICENSE Version 3
 --------------------------------------------------------
