@@ -65,3 +65,5 @@ while {true} do {
 	} forEach vehicles;
 	sleep 15;
 };
+
+diag_log format["AZM>>%1>>targhe.sqf loaded",time];

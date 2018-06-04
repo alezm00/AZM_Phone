@@ -18,6 +18,7 @@ diag_log format["AZM>>%1>>Loading phone",time];
 
 
 //some stuff
+AZM_DISTANCE_PHONE_ENABLED = 1500;
 AZM_ACE_MEDADV = 1;
 AZM_ARSENAL_LOADOUT_BLOCK = 1;
 AZM_WHITELIST_ENABLE = 0;
@@ -49,6 +50,7 @@ AZM_GENIERE_LIST=["",
 [] execVM "azmtab\scripts\whitelist.sqf";
 [] execVM "azmtab\scripts\targhe.sqf";
 [] execVM "azmtab\scripts\bersaglio.sqf";
+[] execVM "azmtab\scripts\telecamera.sqf";
 ////////////////////////////////////////////
 
 ///////////////////CALLS////////////////////

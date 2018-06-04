@@ -69,3 +69,6 @@ azm_bersaglio = {
 	deleteVehicle _bersaglio;
 };
 //[0,0,1.5
+
+
+diag_log format["AZM>>%1>>bersaglio.sqf loaded",time];
