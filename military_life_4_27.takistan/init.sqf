@@ -1,0 +1,1 @@
+[] execVM "azmtab\init.sqf";
