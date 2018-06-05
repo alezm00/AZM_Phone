@@ -22,7 +22,7 @@ azm_lradio_freqset = {
 		[(call TFAR_fnc_activelrRadio), 3, "62"] call TFAR_fnc_SetChannelFrequency;
 		sleep 0.2;
 		_line1="<t color='#FF0000' size='2' align='center'>AZM Radio LR set</t>";
-		_line2="<br/>CANALE 1 = 60<br/>CANALE 2 = 61<br/>CANALE 3 = 62";
+		_line2="<br/>CANALE 1 = 30.1<br/>CANALE 2 = 61<br/>CANALE 3 = 62";
 		hint parseText (_line1 + _line2);
 	} else {
 		_line1nol="<t color='#FF0000' size='2' align='center'>AZM Radio LR set</t>";
@@ -40,7 +40,7 @@ azm_sradio_freqset = {
 	[(call TFAR_fnc_activeSwRadio), 5, "30.5"] call TFAR_fnc_SetChannelFrequency;
 	[(call TFAR_fnc_activeSwRadio), 6, "30.6"] call TFAR_fnc_SetChannelFrequency;
 	_line1="<t color='#FF0000' size='2' align='center'>AZM Radio SR set</t>";
-	_line2="<br/>CANALE 1 = 110<br/>CANALE 2 = 111<br/>CANALE 3 = 112<br/>CANALE 4 = 113<br/>CANALE 5 = 114<br/>CANALE 6 = 115";
+	_line2="<br/>CANALE 1 = 30.1<br/>CANALE 2 = 30.2<br/>CANALE 3 = 30.3<br/>CANALE 4 = 30.4<br/>CANALE 5 = 30.5<br/>CANALE 6 = 30.6";
 	hint parseText (_line1 + _line2);
 };
 
