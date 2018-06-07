@@ -36,7 +36,7 @@ azm_allarme = {
 	systemChat "Allarme attivato";
 	for "_i" from 1 to 50 step 1 do {
 		if (AZM_STOP_SOUND == 1) then {
-		['allarme',[c0,c1,c2,c3,c4,c5,c6,c7,c8,c9]] call azm_autoparlanti;
+		['allarme',[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17]] call azm_autoparlanti;
 		sleep 7.8;
 		};
 	};

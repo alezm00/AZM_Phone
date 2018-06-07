@@ -17,7 +17,7 @@ AZM_Light_on_off = {
     [_this select 0, _this select 1,_this select 2] spawn {
     params ["_onoff", "_marker","_distance"];
         //hint "funziona porco dio";
-    _types = ["Land_LampShabby_F","Land_LampHalogen_F"];
+    _types = ["Land_LampShabby_F","Land_LampHalogen_F","Land_LampAirport_F","Land_Camping_Light_F","Land_PortableLight_double_F"];
     _onoff = _this select 0;
     _marker = _this select 1;
     _distance = _this select 2;
@@ -29,6 +29,7 @@ AZM_Light_on_off = {
             _x setDamage _onoff;
             sleep .09;
         } forEach _lamps;
+
     };
     };
 };
