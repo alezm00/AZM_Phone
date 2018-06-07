@@ -504,23 +504,23 @@ class Admin {
                 }; 
                 class sveglia {
                     text = "Sveglia";
-                    data = "['sveglia',[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17]] remoteExec ['azm_autoparlanti',0];";
+                    data = "['sveglia'] remoteExec ['azm_autoparlanti',0];";
                 };
                 class adunata {
                     text = "Adunata";
-                    data = "['adunata',[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17]] remoteExec ['azm_autoparlanti',0];";
+                    data = "['adunata'] remoteExec ['azm_autoparlanti',0];";
                 };
                 class capisquadra {
                     text = "Richiamo Capisquadra";
-                    data = "['capisquadra',[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17]] remoteExec ['azm_autoparlanti',0];";
+                    data = "['capisquadra'] remoteExec ['azm_autoparlanti',0];";
                 };
                 class briefing {
                     text = "Briefing";
-                    data = "['briefing',[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17]] remoteExec ['azm_autoparlanti',0];";
+                    data = "['briefing'] remoteExec ['azm_autoparlanti',0];";
                 };
                 class ufficiali {
                     text = "Richiamo Ufficiali";
-                    data = "['ufficiali',[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17]] remoteExec ['azm_autoparlanti',0];";
+                    data = "['ufficiali'] remoteExec ['azm_autoparlanti',0];";
                 };
            };
        };

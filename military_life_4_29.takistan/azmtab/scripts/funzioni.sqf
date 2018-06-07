@@ -36,14 +36,15 @@ azm_allarme = {
 	systemChat "Allarme attivato";
 	for "_i" from 1 to 50 step 1 do {
 		if (AZM_STOP_SOUND == 1) then {
-		['allarme',[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17]] call azm_autoparlanti;
+		//['allarme',AZM_LISTA_AUTOPARLANTI] call azm_autoparlanti;
+		['allarme'] call azm_autoparlanti;
 		sleep 7.8;
 		};
 	};
 };
 
 azm_autoparlanti = {  //["allarme",[c0,c1,c2]] call azm_autoparlanti;
-	params ["_suono","_ssource"];
+	params ["_suono",["_ssource",AZM_LISTA_AUTOPARLANTI]];
 	//systemChat format ["playing %1 nell'autoparlante: %2",_suono,_ssource];
 	{
 	_x say3D [_suono,300];

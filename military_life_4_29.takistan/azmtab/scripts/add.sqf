@@ -21,6 +21,7 @@ azm_aceaction1 = {
     ["InitializePlayer", [player]] call BIS_fnc_dynamicGroups;//Exec on client
 	_acesefl = ['gameMenu','Telefono','',{[] call azm_homegui_open;},{(player distance (getMarkerPos "base1") < AZM_DISTANCE_PHONE_ENABLED)}] call ace_interact_menu_fnc_createAction;
 	[player, 1, ["ACE_SelfActions"], _acesefl] call ace_interact_menu_fnc_addActionToObject;
+    [] spawn azm_starttext;
 };
 
 
