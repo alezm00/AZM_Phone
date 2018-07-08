@@ -1,0 +1,23 @@
+
+onLoadMission  = "QCS Military Life";
+briefingName   = "Military base Takistan";
+author         = "QCS Team";
+respawn        = "BASE";
+respawnButton  = 1;
+respawnDelay   = 10;
+respawnDialog  = 0;
+joinUnassigned = 1;
+
+
+#include "azmtab\gui\defines.hpp"
+#include "azmtab\gui\phone.hpp"
+#include "azmtab\cfggeneral.hpp"
+#include "infiSTAR_AdminMenu.hpp"
+
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 0; 
+	maxPlayers = 80; 
+};
